@@ -1,14 +1,18 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
-	}
+	"name":"fcc-learn-npm-package-json",
+	"author":"Francisco Gonzalez",
+	"description":"A project that does something awesome",
+	"keywords":[
+		"descriptive",
+		"related",
+		"words"
+	],
+	"license":"MIT",
+	"dependencies":{"express":"^4.21.2"},
+	"main":"server.js",
+	"scripts":{"start":"node server.js"},
+	"repository":{
+		"type":"git",
+		"url":"https://github.com/freeCodeCamp/boilerplate-npm.git"
+		}
 }
